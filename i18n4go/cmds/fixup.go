@@ -257,6 +257,18 @@ func (fix *fixup) inspectFile(file string) (translatedStrings []string, err erro
 						translatedStrings = append(translatedStrings, translatedString)
 					}
 				}
+			case *ast.SelectorExpr:
+				name := x.Fun.(*ast.SelectorExpr).Sel.Name
+
+				if name == "T" || name == "t" {
+					if stringArg, ok := x.Args[0].(*ast.BasicLit); ok {
+						translatedString, err := strconv.Unquote(stringArg.Value)
+						if err != nil {
+							panic(err.Error())
+						}
+						translatedStrings = append(translatedStrings, translatedString)
+					}
+				}
 			default:
 				//Skip!
 			}
