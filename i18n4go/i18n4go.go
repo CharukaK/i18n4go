@@ -65,7 +65,7 @@ func main() {
 func rootCobraCmd(opts common.Options) {
 	cmd := &cobra.Command{
 		Use:  "i18n4go",
-		Long: "General purpose tool for i18n",
+		Long: "General purpose tool for i18n edited by Charuka",
 	}
 
 	cmd.PersistentFlags().BoolVarP(&opts.VerboseFlag, "verbose", "v", false, "verbose mode where lots of output is generated during execution")
