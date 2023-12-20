@@ -2,6 +2,8 @@ module github.com/CharukaK/i18n4go
 
 go 1.18
 
+replace github.com/CharukaK/i18n4go/i18n4go => github.com/CharukaK/i18n4go/i18n4go v0.6.0 // use the correct version
+
 require (
 	github.com/nicksnyder/go-i18n/v2 v2.3.0
 	github.com/onsi/ginkgo v1.16.5
@@ -24,4 +26,3 @@ require (
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
