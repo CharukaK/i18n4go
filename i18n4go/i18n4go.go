@@ -23,8 +23,8 @@ import (
 
 	"runtime/debug"
 
-	"github.com/maximilien/i18n4go/i18n4go/cmds"
-	"github.com/maximilien/i18n4go/i18n4go/common"
+	"github.com/CharukaK/i18n4go/i18n4go/cmds"
+	"github.com/CharukaK/i18n4go/i18n4go/common"
 	"github.com/spf13/cobra"
 )
 
@@ -427,7 +427,7 @@ func handlePanic() {
 func displayCrashDialog(errorMessage string) {
 	formattedString := `
 Something completely unexpected happened. This is a bug in %s.
-Please file this bug : https://github.com/maximilien/i18n4go/issues
+Please file this bug : https://github.com/CharukaK/i18n4go/issues
 Tell us that you ran this command:
 
 	%s

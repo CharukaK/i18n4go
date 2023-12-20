@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	. "github.com/maximilien/i18n4go/integration/test_helpers"
+	. "github.com/CharukaK/i18n4go/integration/test_helpers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -10,5 +10,5 @@ jobs:
       continue-on-error: true
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Thanks for your contribution. Please contact me @maximilien to ensure follow-up.'
-        pr-message: 'Thanks for your contribution. Please contact me @maximilien to ensure follow-up.'
+        issue-message: 'Thanks for your contribution. Please contact me @CharukaK to ensure follow-up.'
+        pr-message: 'Thanks for your contribution. Please contact me @CharukaK to ensure follow-up.'

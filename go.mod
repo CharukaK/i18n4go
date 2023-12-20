@@ -1,4 +1,4 @@
-module github.com/maximilien/i18n4go
+module github.com/CharukaK/i18n4go
 
 go 1.18
 
@@ -24,6 +24,4 @@ require (
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/maximilien/i18n4go => github.com/CharukaK/i18n4go v0.0.0-20231219035554-eb3edd3c6950
 

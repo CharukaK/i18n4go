@@ -29,7 +29,7 @@ import (
 	"go/parser"
 	"go/token"
 
-	"github.com/maximilien/i18n4go/i18n4go/common"
+	"github.com/CharukaK/i18n4go/i18n4go/common"
 	"github.com/spf13/cobra"
 )
 
